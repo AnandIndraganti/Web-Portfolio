@@ -1,0 +1,107 @@
+/* Custom CSS for Mobile Devices (max-width: 700px) */
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    /* Navbar */
+    .toggle-btn i {
+        display: block;
+    }
+    .brand img {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 20px;
+    }
+    .navbar {
+        background: #E9F9FF;
+        height: 100vh;
+        flex-direction: column;
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+    .nav-list ul {
+        flex-direction: column;
+    }
+    .nav-list ul li {
+        margin-top: 30px;
+    }
+
+    /* Header */
+    .header {
+        height: 100%;
+        margin-top: 120px;
+    }
+    .header .row {
+        flex-direction: column;
+    }
+    .header .col-1 {
+        padding: 20px;
+    }
+    .header .col-2 img {
+        max-width: 90%;
+    }
+
+    /* Skills */
+    .grid-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+    .grid-box {
+        padding: 10px;
+    }
+
+    /* Portfolio */
+    .portfolio .title .ctn-title {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    /* Adjust styles for the profile image and content */
+    .about .col {
+        width: 100%;
+    }
+
+    .about .about-image {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about .about-image img {
+        width: 150px; /* Adjust the size of the profile image for mobile view */
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .about .about-content {
+        text-align: center;
+    }
+    /* Contact */
+    .contact .container {
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .contact .container h1 {
+        font-size: 20px;
+    }
+    .contact .quick-links {
+        flex-direction: column;
+    }
+    .contact .quick-links img {
+        width: 50px;
+    }
+    .contact .quick-links ul li {
+        margin: 0px 5px;
+    }
+
+    /* Footer */
+    .copyright p {
+        font-size: 12px;
+    }
+}
